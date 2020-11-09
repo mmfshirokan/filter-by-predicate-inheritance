@@ -1,4 +1,4 @@
-# Filter by Various Predicate
+# Filter by Various Predicate. Inheritance
 
 ## Task description ##
 
