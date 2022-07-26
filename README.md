@@ -9,16 +9,22 @@ The task requires .NET 6 SDK installed.
 ## Task description ##
 
 - Develop the [ArrayExtension](ArrayExtension) class with following methods:
-    - a `FilterByDigit` method that obtains an array of integers whose elements contain a given digit;
-    - a `FilterByPalindromic` method that takes an array of integers and filters it in such a way that the output will be a new array consisting only of elements that are palindromes. 
 
-- Analyze your solutions: what part of the code can be made reusable and which part can be customizable depending on the specific way of matching the number with a certain _predicate_*?
+    - the `FilterByDigit` method that returns an array of integers whose elements contain a given digit;
+    - the `FilterByPalindromic` method that returns an array of integers that are palindromes. 
 
-- Using the capabilities of the inheritance of the classes propose the option of allocating reusable code. Demonstrate the ability to use  with the above integer predicates. Place the solutions in two separate projects:
+- Analyze your methods: what part of the code can be made reusable and which part can be customizable depending on the specific way of matching the number with a certain _predicate_*?
 
-    - [Filter by Digit](FilerByDigit);
+- Develop abstract class `Filter` to implement logic for filtering array elements according to a predicate.
+
+- Develop derived classes `PalindromicFilter` and `ContainsDigitFilter` that implement logic for filtering array elements according to corresponding predicates. Place the solutions in two separate projects:
+
+    - [Filter by Digit](FilerByDigit)
     - [Filter by Palindromic](FilterByPalindromic).
 
+    ![]()
+
 - Suggest your custom version of the predicate and place it in separate project.
+
 
 _*A `predicate`  is a statement made about a subject. The subject of the statement is that about which the statement is made. A predicate in programming is an expression that uses one or more values with a boolean result._
