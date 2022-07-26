@@ -22,9 +22,12 @@ The task requires .NET 6 SDK installed.
     - [Filter by Digit](FilerByDigit)
     - [Filter by Palindromic](FilterByPalindromic).
 
-    ![]()
+    ![](/filter-by-predicate.png)
+
+- Run unit test.
+
+- Study Moq-test.
 
 - Suggest your custom version of the predicate and place it in separate project.
-
 
 _*A `predicate`  is a statement made about a subject. The subject of the statement is that about which the statement is made. A predicate in programming is an expression that uses one or more values with a boolean result._
