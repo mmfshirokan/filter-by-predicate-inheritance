@@ -10,11 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByPalindromicPredicate", "FilterByPalindromicPredicate\FilterByPalindromicPredicate.csproj", "{7707716A-CA4A-4A60-8599-7B333849B2AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByPalindromicPredicate.Inheritance", "FilterByPalindromicPredicate.Inheritance\FilterByPalindromicPredicate.Inheritance.csproj", "{7707716A-CA4A-4A60-8599-7B333849B2AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByDigitPredicate", "FilerByDigit\FilterByDigitPredicate.csproj", "{2677B035-5B3E-4BC0-8F4C-3E4089F425F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByDigitPredicate.Inheritance", "FilerByDigit\FilterByDigitPredicate.Inheritance.csproj", "{2677B035-5B3E-4BC0-8F4C-3E4089F425F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByVariousPredicate", "FilterByVariousPredicate\FilterByVariousPredicate.csproj", "{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExtension", "ArrayExtension\ArrayExtension.csproj", "{FA65B106-942A-4BCB-A2D0-54D15CCD8621}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA65B106-942A-4BCB-A2D0-54D15CCD8621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA65B106-942A-4BCB-A2D0-54D15CCD8621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA65B106-942A-4BCB-A2D0-54D15CCD8621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA65B106-942A-4BCB-A2D0-54D15CCD8621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

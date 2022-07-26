@@ -15,8 +15,9 @@
         <AdditionalFiles Include="..\stylecop.json" Link="Properties\stylecop.json" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\FilerByDigit\FilterByDigitPredicate.csproj" />
-        <ProjectReference Include="..\FilterByPalindromicPredicate\FilterByPalindromicPredicate.csproj" />
+        <ProjectReference Include="..\ArrayExtension\ArrayExtension.csproj" />
+        <ProjectReference Include="..\FilerByDigit\FilterByDigitPredicate.Inheritance.csproj" />
+        <ProjectReference Include="..\FilterByPalindromicPredicate.Inheritance\FilterByPalindromicPredicate.Inheritance.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Moq" Version="4.18.1" />

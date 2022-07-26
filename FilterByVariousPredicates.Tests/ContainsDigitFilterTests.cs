@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using FilterByDigitPredicate;
+using FilterByDigitPredicate.Inheritance;
 using NUnit.Framework;
 
 namespace FilterByVariousPredicates.Tests

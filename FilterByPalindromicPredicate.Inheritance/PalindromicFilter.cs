@@ -1,7 +1,7 @@
 ﻿using System;
 using FilterByVariousPredicate;
 
-namespace FilterByPalindromicPredicate
+namespace FilterByPalindromicPredicate.Inheritance
 {
     /// <summary>
     /// Represents an array filter on a given digit.

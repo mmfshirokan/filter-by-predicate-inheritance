@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using FilterByDigitPredicate;
-using FilterByPalindromicPredicate;
+using FilterByDigitPredicate.Inheritance;
+using FilterByPalindromicPredicate.Inheritance;
 using FilterByVariousPredicate;
 using NUnit.Framework;
 
