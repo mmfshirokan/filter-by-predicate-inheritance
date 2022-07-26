@@ -8,7 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task description ##
 
--Develop the [ArrayExtension](ArrayExtension) class with following methods:
+- Develop the [ArrayExtension](ArrayExtension) class with following methods:
     - a `FilterByDigit` method that obtains an array of integers whose elements contain a given digit;
     - a `FilterByPalindromic` method that takes an array of integers and filters it in such a way that the output will be a new array consisting only of elements that are palindromes. 
 
