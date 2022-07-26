@@ -16,8 +16,8 @@ The task requires .NET 6 SDK installed.
 
 - Using the capabilities of the inheritance of the classes propose the option of allocating reusable code. Demonstrate the ability to use  with the above integer predicates. Place the solutions in two separate projects:
 
-    - [Filter by Digit with Framework](FilerByDigitWithFramework);
-    - [Filter by Palindromic with Framework](FilterByPalindromicWithFramework).
+    - [Filter by Digit](FilerByDigit);
+    - [Filter by Palindromic](FilterByPalindromic).
 
 - Suggest your custom version of the predicate and place it in separate project.
 
