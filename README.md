@@ -8,9 +8,9 @@ The task requires .NET 6 SDK installed.
 
 ## Task description ##
 
-- Implement an `FilterByDigit` method that obtains an array of integers whose elements contain a given digit. Place solution in project [Filter by Digit](FilerByDigit). The task definition is given in the  XML-comments for this method. _Do not use LINQ queries and delegates_.
-
-- Implement a `FilterByPalindromic` method that takes an array of integers and filters it in such a way that the output will be a new array consisting only of elements that are palindromes. Place solution in project [Filter by Digit](FilterByPalindromic). _Do not use LINQ queries and delegates_.  
+-Develop the [ArrayExtension](ArrayExtension) class with following methods:
+    - a `FilterByDigit` method that obtains an array of integers whose elements contain a given digit;
+    - a `FilterByPalindromic` method that takes an array of integers and filters it in such a way that the output will be a new array consisting only of elements that are palindromes. 
 
 - Analyze your solutions: what part of the code can be made reusable and which part can be customizable depending on the specific way of matching the number with a certain _predicate_*?
 
