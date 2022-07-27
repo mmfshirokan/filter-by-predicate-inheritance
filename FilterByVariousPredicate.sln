@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByPalindromicPredicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByDigitPredicate", "FilerByDigit\FilterByDigitPredicate.csproj", "{2677B035-5B3E-4BC0-8F4C-3E4089F425F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByPredicate", "FilterByVariousPredicate\FilterByPredicate.csproj", "{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterByPredicate", "FilterByPredicate\FilterByPredicate.csproj", "{A66D55BC-E793-4E58-8EB0-6B06B33FF79C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayExtension", "ArrayExtension\ArrayExtension.csproj", "{FA65B106-942A-4BCB-A2D0-54D15CCD8621}"
 EndProject
