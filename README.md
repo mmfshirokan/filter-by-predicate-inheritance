@@ -24,9 +24,9 @@ The task requires .NET 6 SDK installed.
 
     ![](/filter-by-predicate.png)
 
-- Run unit test.
+- Run all unit tests.
 
-- Study Moq-test.
+- Study [mock](http://xunitpatterns.com/Mock%20Object.html) tests and the [Moq](https://github.com/Moq/moq4/wiki/Quickstart) Framework.
 
 - Suggest your custom version of the predicate and place it in separate project.
 
