@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using FilterByPalindromicPredicate.Inheritance;
+using FilterByPalindromicPredicate;
 using NUnit.Framework;
 
 namespace FilterByVariousPredicates.Tests

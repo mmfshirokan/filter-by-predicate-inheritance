@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace FilterByVariousPredicate
+namespace FilterByPredicate
 {
     /// <summary>
     /// Base class for the array filter.
@@ -9,7 +8,7 @@ namespace FilterByVariousPredicate
     public abstract class Filter
     {
         /// <summary>
-        /// Filters array according to the specified condition..
+        /// Filters array according to the specified condition.
         /// </summary>
         /// <param name="source">A source array.</param>
         /// <returns>A filtered array.</returns>

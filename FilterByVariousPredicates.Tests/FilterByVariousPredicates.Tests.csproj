@@ -8,7 +8,7 @@
         <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
         <CodeAnalysisRuleSet>..\code-analysis.ruleset</CodeAnalysisRuleSet>
         <GenerateDocumentationFile>false</GenerateDocumentationFile>
-        <NoWarn>CA1707,S1066,SA1407,SA1116,SA1117</NoWarn>
+        <NoWarn>CA1707,S1066,SA1407,SA1116,SA1117,SA1600</NoWarn>
     </PropertyGroup>
     <ItemGroup>
         <AdditionalFiles Include="..\code-analysis.ruleset" Link="Properties\code-analisys.ruleset" />
@@ -16,8 +16,8 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\ArrayExtension\ArrayExtension.csproj" />
-        <ProjectReference Include="..\FilerByDigit\FilterByDigitPredicate.Inheritance.csproj" />
-        <ProjectReference Include="..\FilterByPalindromicPredicate.Inheritance\FilterByPalindromicPredicate.Inheritance.csproj" />
+        <ProjectReference Include="..\FilerByDigit\FilterByDigitPredicate.csproj" />
+        <ProjectReference Include="..\FilterByPalindromicPredicate\FilterByPalindromicPredicate.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Moq" Version="4.18.1" />

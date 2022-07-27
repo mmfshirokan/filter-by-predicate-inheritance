@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using FilterByVariousPredicate;
+using FilterByPredicate;
 using Moq;
 using Moq.Protected;
 using NUnit.Framework;

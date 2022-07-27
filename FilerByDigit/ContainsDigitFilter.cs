@@ -1,7 +1,7 @@
 ﻿using System;
-using FilterByVariousPredicate;
+using FilterByPredicate;
 
-namespace FilterByDigitPredicate.Inheritance
+namespace FilterByDigitPredicate
 {
     /// <summary>
     /// Represents an array filter on a given digit.
@@ -18,7 +18,6 @@ namespace FilterByDigitPredicate.Inheritance
             set => throw new NotImplementedException();
         }
         
-        /// <inheritdoc />
         protected override bool Verify(int item)
         {
             throw new NotImplementedException();

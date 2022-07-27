@@ -18,13 +18,13 @@ namespace ArrayExtension
         /// </example>
         public static int[] FilterByDigit(this int[]? source, int digit)
         {
-            //TODO
+            //Add necessary code here, than remove comment.
             
             foreach (var item in source)
             {
                 if (Verify(item))
                 {
-                    //TODO
+                    //Add necessary code here, than remove comment.
                 }
             }
 
@@ -49,13 +49,13 @@ namespace ArrayExtension
         /// </example>
         public static int[] FilterByPalindromic(this int[]? source)
         {
-            //TODO 
+            //Add necessary code here, than remove comment.
             
             foreach (var item in source)
             {
                 if (Verify(item))
                 {
-                    //TODO
+                    //Add necessary code here, than remove comment.
                 }
             }
 
