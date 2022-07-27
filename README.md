@@ -18,6 +18,7 @@ The task requires .NET 6 SDK installed.
     - what part of their code is the same?
     - which part depends on a specific _predicate_*?
     - how to change the class if it becomes necessary to add a method/methods with _additional conditions_ for filtering?
+    - how to solve this problem using inheritance of the classes?
 
 - To solve the above problem, develop an abstract `Filter` class that implements the logic for filtering array elements according to any given predicate.
 
