@@ -1,6 +1,6 @@
 ## Filter by Predicate. Inheritance
 
-Intermediate level task for practicing partial classes and methods.
+Intermediate level task for practicing inheritance classes, abstract classes and methods, Template Method design pattern.
 
 Estimated time to complete the task - 2h.
 
@@ -30,7 +30,7 @@ The task requires .NET 6 SDK installed.
 
 - Study [mock](http://xunitpatterns.com/Mock%20Object.html) tests and the [Moq](https://github.com/Moq/moq4/wiki/Quickstart) Framework.
 
-- Suggest your custom version of the predicate and place it in separate project.
+- Suggest your custom version of the predicate and place it in separate project. Add unit tests for this solution to [FilterTests](FilterByVariousPredicates.Tests/FilterTests.cs) class.
 
 - Study the following class diagramm
 
