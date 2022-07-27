@@ -17,15 +17,13 @@ The task requires .NET 6 SDK installed.
 - Analyze the resulting methods:
     - what part of their code is the same?
     - which part depends on a specific _predicate_*?
-    - how to change the class if it becomes necessary to add a method/methods with _additional conditions_ for filtering?
-    - how to solve this problem using inheritance of the classes?
 
-- To solve the above problem, develop an abstract `Filter` class that implements the logic for filtering array elements according to any given predicate.
+- Put the common part of the code as a skeleton of operations in the `Filer` [abstract class](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract) and leave the details to be implemented by the derived classes. The overall structure and sequence of the algorithm are preserved by the parent class. 
 
-- Develop derived classes `PalindromicFilter` and `ContainsDigitFilter` that implement logic for filtering array elements according to corresponding predicates. Place the solutions in two separate projects:
+- Develop derived classes for described above predicates. Place the solutions in two separate projects:
 
-    - [Filter by Digit](FilerByDigit)
-    - [Filter by Palindromic](FilterByPalindromic).
+    - [Filter by Digit](FilerByDigitWithFramework);
+    - [Filter by Palindromic](FilterByPalindromicWithFramework).
 
 - Run all unit tests.
 
