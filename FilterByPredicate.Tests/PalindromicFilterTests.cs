@@ -3,7 +3,7 @@ using System.Linq;
 using FilterByPalindromicPredicate;
 using NUnit.Framework;
 
-namespace FilterByVariousPredicates.Tests
+namespace FilterByPredicates.Tests
 {
     [TestFixture]
     public class PalindromicFilterTests

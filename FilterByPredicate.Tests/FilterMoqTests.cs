@@ -5,7 +5,7 @@ using Moq;
 using Moq.Protected;
 using NUnit.Framework;
 
-namespace FilterByVariousPredicates.Tests
+namespace FilterByPredicates.Tests
 {
     [TestFixture]
     public class FilterMoqTests

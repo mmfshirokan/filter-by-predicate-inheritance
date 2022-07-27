@@ -3,7 +3,7 @@ using System.Linq;
 using NUnit.Framework;
 using static ArrayExtension.ArrayExtension;
 
-namespace FilterByVariousPredicates.Tests
+namespace FilterByPredicate.Tests
 {
     [TestFixture]
     public class ArrayExtensionTests

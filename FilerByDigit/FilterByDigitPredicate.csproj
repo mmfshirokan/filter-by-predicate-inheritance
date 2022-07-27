@@ -21,6 +21,6 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\FilterByVariousPredicate\FilterByPredicate.csproj" />
+      <ProjectReference Include="..\FilterByPredicate\FilterByPredicate.csproj" />
     </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@
         <CodeAnalysisRuleSet>..\code-analysis.ruleset</CodeAnalysisRuleSet>
         <GenerateDocumentationFile>false</GenerateDocumentationFile>
         <NoWarn>CA1707,S1066,SA1407,SA1116,SA1117,SA1600</NoWarn>
+        <RootNamespace>FilterByPredicates.Tests</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <AdditionalFiles Include="..\code-analysis.ruleset" Link="Properties\code-analisys.ruleset" />
@@ -18,6 +19,7 @@
         <ProjectReference Include="..\ArrayExtension\ArrayExtension.csproj" />
         <ProjectReference Include="..\FilerByDigit\FilterByDigitPredicate.csproj" />
         <ProjectReference Include="..\FilterByPalindromicPredicate\FilterByPalindromicPredicate.csproj" />
+        <ProjectReference Include="..\FilterByPredicate\FilterByPredicate.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Moq" Version="4.18.1" />
@@ -25,8 +27,6 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.NET.Test.SDK" Version="17.0.0" />
-        <PackageReference Include="NUnit" Version="3.13.2" />
         <PackageReference Include="NUnit3TestAdapter" Version="4.0.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -4,7 +4,7 @@ using FilterByPalindromicPredicate;
 using FilterByPredicate;
 using NUnit.Framework;
 
-namespace FilterByVariousPredicates.Tests
+namespace FilterByPredicates.Tests
 {
     [TestFixture]
     public class FilterTests
