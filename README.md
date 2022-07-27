@@ -10,24 +10,32 @@ The task requires .NET 6 SDK installed.
 
 - Develop the [ArrayExtension](ArrayExtension) class with following methods:
 
-    - the `FilterByDigit` method that returns an array of integers whose elements contain a given digit;
-    - the `FilterByPalindromic` method that returns an array of integers that are palindromes. 
+    - the `FilterByDigit` method, which takes an array of integers as a parameter and, based on it, forms a new array only from those elements that contain the given digit;
+    - the `FilterByPalindromic` method, which takes an array of integers as a parameter and, based on it, forms a new array only from those elements that are palindromes.    
+    _When implementing these methods, follow the suggested patterns._
 
-- Analyze your methods: what part of the code can be made reusable and which part can be customizable depending on the specific way of matching the number with a certain _predicate_*?
+- Analyze the resulting methods:
+    - what part of their code is the same?
+    - which part depends on a specific _predicate_*?
+    - how to change the class if it becomes necessary to add a method/methods with _additional conditions_ for filtering?
 
-- Develop abstract class `Filter` to implement logic for filtering array elements according to a predicate.
+- To solve the above problem, develop an abstract `Filter` class that implements the logic for filtering array elements according to any given predicate.
 
 - Develop derived classes `PalindromicFilter` and `ContainsDigitFilter` that implement logic for filtering array elements according to corresponding predicates. Place the solutions in two separate projects:
 
     - [Filter by Digit](FilerByDigit)
     - [Filter by Palindromic](FilterByPalindromic).
 
-    ![](/filter-by-predicate.png)
-
 - Run all unit tests.
 
 - Study [mock](http://xunitpatterns.com/Mock%20Object.html) tests and the [Moq](https://github.com/Moq/moq4/wiki/Quickstart) Framework.
 
 - Suggest your custom version of the predicate and place it in separate project.
+
+- Study the following class diagramm
+
+    ![](/filter-by-predicate.png)
+
+- Study the [Template Method](https://refactoring.guru/design-patterns/template-method) design pattern.
 
 _*A `predicate`  is a statement made about a subject. The subject of the statement is that about which the statement is made. A predicate in programming is an expression that uses one or more values with a boolean result._
