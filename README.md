@@ -37,5 +37,3 @@ The task requires .NET 6 SDK installed.
     ![](/filter-by-predicate.png)
 
 - Study the [Template Method](https://refactoring.guru/design-patterns/template-method) design pattern.
-
-_*A `predicate`  is a statement made about a subject. The subject of the statement is that about which the statement is made. A predicate in programming is an expression that uses one or more values with a boolean result._
