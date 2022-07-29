@@ -4,7 +4,7 @@ using FilterByPredicate;
 namespace FilterByDigitPredicate
 {
     /// <summary>
-    /// Represents an array filter on a given digit.
+    /// Represents an class filter of the array on a given digit.
     /// </summary>
     public class ContainsDigitFilter : Filter
     {
