@@ -22,7 +22,7 @@ namespace ArrayExtension
             
             foreach (var item in source)
             {
-                if (Verify(item))
+                if (IsMatch(item))
                 {
                     //Add necessary code here, than remove comment.
                 }
@@ -30,7 +30,7 @@ namespace ArrayExtension
 
             throw new NotImplementedException();
             
-            static bool Verify(int value)
+            static bool IsMatch(int value)
             {
                 throw new NotImplementedException();                
             }
@@ -53,7 +53,7 @@ namespace ArrayExtension
             
             foreach (var item in source)
             {
-                if (Verify(item))
+                if (IsMatch(item))
                 {
                     //Add necessary code here, than remove comment.
                 }
@@ -61,7 +61,7 @@ namespace ArrayExtension
 
             throw new NotImplementedException();
             
-            static bool Verify(int value)
+            static bool IsMatch(int value)
             {
                 throw new NotImplementedException();                
             }

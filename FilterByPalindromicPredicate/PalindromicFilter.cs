@@ -8,7 +8,7 @@ namespace FilterByPalindromicPredicate
     /// </summary> 
     public class PalindromicFilter : Filter
     {
-        protected override bool Verify(int item)
+        protected override bool IsMatch(int item)
         {
             throw new NotImplementedException();
         }

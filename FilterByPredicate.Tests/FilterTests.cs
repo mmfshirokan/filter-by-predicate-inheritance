@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using FilterByDigitPredicate;
 using FilterByPalindromicPredicate;
-using FilterByPredicate;
 using NUnit.Framework;
 
-namespace FilterByPredicates.Tests
+namespace FilterByPredicate.Tests
 {
     [TestFixture]
     public class FilterTests

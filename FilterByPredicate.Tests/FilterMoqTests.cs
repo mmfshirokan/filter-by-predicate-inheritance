@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
-using FilterByPredicate;
 using Moq;
 using Moq.Protected;
 using NUnit.Framework;
 
-namespace FilterByPredicates.Tests
+namespace FilterByPredicate.Tests
 {
     [TestFixture]
     public class FilterMoqTests
@@ -16,7 +15,7 @@ namespace FilterByPredicates.Tests
             var mockFilter = new Mock<Filter>();
 
             mockFilter.Protected()
-                .Setup<bool>("Verify", ItExpr.Is<int>(i => Contains(i, 1)))
+                .Setup<bool>("IsMatch", ItExpr.Is<int>(i => Contains(i, 1)))
                 .Returns(true);
 
             Filter filter = mockFilter.Object;
@@ -36,7 +35,7 @@ namespace FilterByPredicates.Tests
             var mockFilter = new Mock<Filter>();
 
             mockFilter.Protected()
-                .Setup<bool>("Verify", ItExpr.IsAny<int>())
+                .Setup<bool>("IsMatch", ItExpr.IsAny<int>())
                 .Returns(true);
 
             Filter filter = mockFilter.Object;
@@ -47,7 +46,7 @@ namespace FilterByPredicates.Tests
 
             filter.Select(source);
 
-            mockFilter.Protected().Verify("Verify", Times.Exactly(count), ItExpr.IsAny<int>());
+            mockFilter.Protected().Verify("IsMatch", Times.Exactly(count), ItExpr.IsAny<int>());
         }
 
         private static bool Contains(int number, int digit)

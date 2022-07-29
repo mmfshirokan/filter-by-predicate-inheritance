@@ -24,6 +24,6 @@ namespace FilterByPredicate
         /// </summary>
         /// <param name="item">Source item.</param>
         /// <returns>true if item satisfy some condition, false otherwise.</returns>
-        protected abstract bool Verify(int item);
+        protected abstract bool IsMatch(int item);
     }
 }
