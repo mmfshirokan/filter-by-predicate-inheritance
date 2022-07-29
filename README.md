@@ -19,6 +19,8 @@ The task requires .NET 6 SDK installed.
     - which part depends on a specific _predicate_*?      
     _*A predicate  is a statement made about a subject. The subject of the statement is that about which the statement is made. A predicate in programming is an expression that uses one or more values with a boolean result._
 
+    _Discuss this question and your answer with your trainer, if you work in a regular group._
+
 - Put the common part of the code as a skeleton of operations in the `Filer` [abstract class](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract) and leave the details to be implemented by the derived classes. The overall structure and sequence of the algorithm are preserved by the parent class. 
 
 - Develop derived classes for described above predicates. Place the solutions in two separate projects:
