@@ -32,7 +32,7 @@ The task requires .NET 6 SDK installed.
 
 - Study [mock](http://xunitpatterns.com/Mock%20Object.html) tests and the [Moq](https://github.com/Moq/moq4/wiki/Quickstart) Framework.
 
-- Suggest your custom version of the predicate and place it in separate project. Add unit tests for this solution to [FilterTests](FilterByPredicates.Tests/FilterTests.cs) class.
+- Suggest your custom version of the predicate and place it in separate project. Add unit tests for this solution to [FilterTests](FilterByPredicate.Tests/FilterTests.cs) class.
 
 - Study the following class diagramm
 
