@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace FilterByPredicate
 {
@@ -16,7 +16,26 @@ namespace FilterByPredicate
         /// <exception cref="ArgumentException">Throws when the array is empty.</exception>
         public int[] Select(int[]? source)
         {
-            throw new NotImplementedException();
+            if (source is null)
+            {
+                throw new ArgumentNullException(nameof(source), "Array is null.");
+            }
+
+            if (source.Length == 0)
+            {
+                throw new ArgumentException("array is empty.");
+            }
+
+            List<int> result = new List<int>();
+            foreach (var item in source)
+            {
+                if (this.IsMatch(item))
+                {
+                    result.Add(item);
+                }
+            }
+
+            return result.ToArray();
         }
 
         /// <summary>
