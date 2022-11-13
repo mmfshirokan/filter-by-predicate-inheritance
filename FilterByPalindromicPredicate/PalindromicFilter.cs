@@ -17,48 +17,36 @@ namespace FilterByPalindromicPredicate
                     return false;
                 }
 
-                int digitnum = GetNumberOfDigits(item);
+                (int digitnum, int zeronum) = GetNumberOfDigits(item);
                 while (digitnum > 1)
                 {
                     byte lustNum = (byte)(item % 10);
-                    byte firstNum = (byte)(item / GetNumberOfZeroes(digitnum));
+                    byte firstNum = (byte)(item / zeronum);
                     if (firstNum != lustNum)
                     {
                         return false;
                     }
 
                     item /= 10;
-                    item = item % GetNumberOfZeroes(digitnum - 1);
+                    item = item % (zeronum / 10);
                     digitnum -= 2;
+                    zeronum /= 100;
                 }
 
                 return true;
 
-                static int GetNumberOfDigits(int a) => a switch
+                static (int, int) GetNumberOfDigits(int a) => a switch
                 {
-                    < 10 => 1,
-                    < 100 => 2,
-                    < 1000 => 3,
-                    < 10000 => 4,
-                    < 100000 => 5,
-                    < 1000000 => 6,
-                    < 10000000 => 7,
-                    < 100000000 => 8,
-                    < 1000000000 => 9,
-                    _ => 10,
-                };
-
-                static int GetNumberOfZeroes(int a) => a switch
-                {
-                    2 => 10,
-                    3 => 100,
-                    4 => 1000,
-                    5 => 10000,
-                    6 => 100000,
-                    7 => 1000000,
-                    8 => 10000000,
-                    9 => 100000000,
-                    _ => 1000000000,
+                    < 10 => (1, 1),
+                    < 100 => (2, 10),
+                    < 1000 => (3, 100),
+                    < 10000 => (4, 1000),
+                    < 100000 => (5, 10000),
+                    < 1000000 => (6, 100000),
+                    < 10000000 => (7, 1000000),
+                    < 100000000 => (8, 10000000),
+                    < 1000000000 => (9, 100000000),
+                    _ => (10, 1000000000),
                 };
             }
         }

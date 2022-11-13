@@ -19,6 +19,7 @@
       <ProjectReference Include="..\ArrayExtension\ArrayExtension.csproj" />
       <ProjectReference Include="..\FilerByDigitPredicate\FilterByDigitPredicate.csproj" />
       <ProjectReference Include="..\FilterByPalindromicPredicate\FilterByPalindromicPredicate.csproj" />
+      <ProjectReference Include="..\FilterByPositive\PositiveNumberFilter.csproj" />
       <ProjectReference Include="..\FilterByPredicate\FilterByPredicate.csproj" />
     </ItemGroup>
 

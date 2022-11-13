@@ -56,32 +56,5 @@ namespace FilterByPredicates.Tests
             {
                 var containsDigitFilter = new ContainsDigitFilter { Digit = 17 };
             }, "Expected digit can not be less than zero.");
-
-        [Test]
-        [Order(1)]
-        public void Select_PerformanceTest()
-        {
-            const int sourceLength = 100_000_000;
-            const int digit = 2;
-            const int number = int.MaxValue;
-
-            int[] source = new int[sourceLength];
-
-            const int count = 1_000_000;
-            const int step = sourceLength / count;
-
-            for (int i = 0; i < sourceLength; i += step)
-            {
-                source[i] = number;
-            }
-
-            var filter = new ContainsDigitFilter { Digit = digit };
-
-            var expected = Enumerable.Repeat(number, count).ToArray();
-
-            var actual = filter.Select(source);
-
-            CollectionAssert.AreEqual(expected, actual);
-        }
     }
 }
